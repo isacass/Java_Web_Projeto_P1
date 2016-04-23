@@ -1,0 +1,11 @@
+Mudar as referências de autenticação do Mysql nos arquivos "db.properties" e em com.p1.dao.LoginDao.java"
+
+Exemplo:
+String url = "jdbc:mysql://localhost:3306/";
+		String dbName = "alunobd";
+		String driver = "com.mysql.jdbc.Driver";
+		String userName = "root";
+		String password = "123456";
+		
+		
+		Logar no Sistema como Usuário: admin e Senha : 123456
